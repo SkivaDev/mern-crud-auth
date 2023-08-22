@@ -6,7 +6,7 @@ function Navbar() {
   const { isAuthenticated, logout, user } = useAuth();
 
   return (
-    <nav className="bg-zinc-800 p-4">
+    <nav className="bg-zinc-700 p-4">
       <div className="flex justify-between items-center">
         <Link to={"/"}>
           <div>
