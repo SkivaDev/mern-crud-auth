@@ -57,7 +57,7 @@ function LoginPage() {
           )}
           <button
             type="submit"
-            className="w-full bg-zinc-500 text-white p-2 rounded-md"
+            className="w-full bg-sky-500 hover:bg-sky-700 text-white p-2 rounded-md mb-4"
           >
             Login
           </button>

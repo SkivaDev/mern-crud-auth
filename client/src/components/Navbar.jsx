@@ -8,7 +8,9 @@ function Navbar() {
   return (
     <nav className="bg-zinc-700 p-4">
       <div className="flex justify-between items-center">
-        <Link to={"/"}>
+        <Link to={
+          isAuthenticated ? "/tasks" : "/"
+        }>
           <div>
             <h1 className="text-white font-bold text-xl">Task Manager</h1>
           </div>
